@@ -10,7 +10,13 @@ body {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 300;
 }
+img {
+    max-width: 100%;
+}
 
+.btn {
+    font-size: 2rem;
+}
 a, a:hover {
     text-decoration: none;
 }
@@ -58,4 +64,49 @@ a, a:hover {
     & .navbar-brand > .fas {
         color: $primary-color;
     }
+}
+
+// Hero section
+.header_hero {
+    width: 100%;
+    background: $main-color;
+
+    &__text {
+        height: 80vh;
+        @include content_center(flex-start)
+    }
+
+    & .header_hero__text {
+
+        & h2 {
+            color: $text-color;
+            font-size: 4rem;
+            margin-bottom: 3rem;
+            line-height: 100%;
+            font-weight: 600;
+            & span {
+                color: $primary-color;
+                text-transform: capitalize;
+                font-weight: 500;
+            }
+        }
+    
+        & p {
+            font-size: 1.8rem;
+            color: $text-color;
+            margin-bottom: 5rem;
+        }
+    
+        & a {
+            padding: 0 1rem;
+        }
+    
+    }
+
+    & figure {
+        height: 80vh;
+        @include content_center(flex-start)        
+    }
+
+
 }
