@@ -1,4 +1,74 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.main_header {
+  width: 100vw;
+  height: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))) #0a183d;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) #0a183d;
+}
+
+.main_header .navbar-brand {
+  color: #fff;
+  font-size: 4rem;
+  -webkit-animation: music 1s linear infinite;
+          animation: music 1s linear infinite;
+}
+
+.main_header .fab {
+  font-size: 4rem;
+}
+
+@-webkit-keyframes music {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes music {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+.main_header .navbar-nav {
+  padding-left: 15rem;
+}
+
+.main_header .navbar-nav .nav-item .nav-link {
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 3rem;
+}
+
+.main_header .navbar-nav .nav-item:last-child > .nav-link {
+  padding-right: 0;
+}
+
+.main_header .nav-item:hover > .nav-link,
+.main_header .navbar-brand:hover,
+.main_header .navbar-brand > .fas {
+  color: #b71540;
+}
 /*# sourceMappingURL=main.css.map */
