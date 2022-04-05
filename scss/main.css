@@ -28,7 +28,7 @@ a, a:hover {
 
 .main_header .navbar-brand {
   color: #fff;
-  font-size: 4rem;
+  font-size: 2.5rem;
   -webkit-animation: music 1s linear infinite;
           animation: music 1s linear infinite;
 }
