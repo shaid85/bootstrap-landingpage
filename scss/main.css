@@ -12,7 +12,7 @@ img {
 }
 
 .btn {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 a, a:hover {
@@ -122,10 +122,6 @@ a, a:hover {
   margin-bottom: 5rem;
 }
 
-.header_hero .header_hero__text a {
-  padding: 0 1rem;
-}
-
 .header_hero figure {
   height: 80vh;
   display: -webkit-box;
@@ -141,5 +137,14 @@ a, a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))) #0a183d;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) #0a183d;
+}
+
+.footer h4 {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
